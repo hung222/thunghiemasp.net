@@ -1,7 +1,9 @@
-<!DOCTYPE html>
+@{var price=50;}
 <html>
 <body>
-     <h1>Hello Web Pages</h1>
-     <p>The time is @DateTime.Now</p>
+@if (price>30)
+  {
+  <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.</p>
+  }
 </body>
 </html>
